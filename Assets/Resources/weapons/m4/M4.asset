@@ -1,0 +1,254 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 734efb6eee460fcefdff3fe46d27c140, type: 3}
+  m_Name: M4
+  m_EditorClassIdentifier:
+  _id: 46
+  _displayName: M4
+  _cost: 0
+  _movementRate: 230
+  _sprites:
+    _icon: {fileID: 21300016, guid: bf26560f60adf064889f3157d5645954, type: 3}
+    _line: {fileID: 21300014, guid: bf26560f60adf064889f3157d5645954, type: 3}
+    _glow: {fileID: 21300024, guid: bf26560f60adf064889f3157d5645954, type: 3}
+    _preview: {fileID: 21300004, guid: 63925baaefa13104db39ddf978d6eec7, type: 3}
+  _dropParameters:
+    initialVelocityMult: 1
+    inertialVelocityMult: 1
+    impulseVelocityMult: 1
+  _gunType: 3
+  _sightType: 0
+  _scopeAimSensitivityMult: 0
+  _ammunition:
+    _magazineCapacity: 30
+    _capacity: 90
+  _damage:
+    _headDamage: 132
+    _chestAndArmsDamage: 32
+    _stomachDamage: 41
+    _legsDamage: 24
+  _fireRate: 800
+  _recoilControl: 0
+  _recoilParameters:
+    horizontalRange: 5
+    verticalRange: 5
+    xAxisDeviation:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 2
+        time: 0.0042134533
+        value: 0.008810572
+        inSlope: 0.98017585
+        outSlope: 0.98017585
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 0.1692259
+        value: 0.2910482
+        inSlope: 2.4337077
+        outSlope: 2.4337077
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 0.31106448
+        value: 0.7161626
+        inSlope: 2.4184763
+        outSlope: 2.4184763
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 0.5025209
+        value: 0.9495756
+        inSlope: 0.32290104
+        outSlope: 0.32290104
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 1.0014045
+        value: 1
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 0
+    yAxisDeviation:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 2
+        time: 0.001404494
+        value: -0.00881052
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 0.19124627
+        value: -0.013856381
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 0.40033507
+        value: 0.56543195
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 0.5111093
+        value: -0.57997906
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 0.6786141
+        value: 0.55226624
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 0.7770807
+        value: -0.57997906
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 0.9174931
+        value: 0.12644178
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 0
+    recoilAccelerationCurve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 2
+        time: 0.0014044943
+        value: 0
+        inSlope: 5.7354307
+        outSlope: 5.7354307
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 0.095077224
+        value: 0.52875555
+        inSlope: 3.7936823
+        outSlope: 3.7936823
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 0.28689978
+        value: 0.89421886
+        inSlope: 0.53398
+        outSlope: 0.53398
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 1
+        value: 1
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 0
+    fallbackDurationCurve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 2
+        time: 0
+        value: 0.19383259
+        inSlope: 0.6167401
+        outSlope: 0.6167401
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 1
+        value: 0.8105727
+        inSlope: 0.6167401
+        outSlope: 0.6167401
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 0
+    maxFallbackDuration: 0.7
+    relativeDispertionCurve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 2
+        time: 0.0018010617
+        value: 0.12192716
+        inSlope: 2
+        outSlope: 2
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 0.99496573
+        value: 1.9000483
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 0
+    cameraDeviationCoeff: 0.5
+    maxApproachSpeed: 2
+    recoilAccelDuration: 0.04
+    recoilAccelStep: 0.085
+    progressFallbackCurve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 2
+        time: -0.0014044944
+        value: 0.9955946
+        inSlope: -0.9985973
+        outSlope: -0.9985973
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 1
+        value: -0.00440526
+        inSlope: -0.13068993
+        outSlope: -0.13068993
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 0
+  _accuracyAdditiveCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 2
+      time: 0
+      value: 0
+      inSlope: 0.006693629
+      outSlope: 0.006693629
+      tangentMode: 0
+    - serializedVersion: 2
+      time: 4.9803834
+      value: 0.9819745
+      inSlope: 0.11858827
+      outSlope: 0.11858827
+      tangentMode: 0
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 0
+  _additiveDispertionCurve:
+    serializedVersion: 2
+    m_Curve: []
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  _additiveNoAimDispertionCurve:
+    serializedVersion: 2
+    m_Curve: []
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  _accurateRange: 0
+  _armorPenetration: 70
+  _penetrationPower: 200
+  _reloadDuration: 3
+  _magazineInsertTime: 2
+  _takeDuration: 1.1
+  _preReloadTime: 0.2
+  _impulse: 150
+  _muzzleFlashType: 0

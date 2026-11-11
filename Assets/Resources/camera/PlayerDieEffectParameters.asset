@@ -1,0 +1,75 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fbb76b2f7bdf09666c00b5fd00f58d4f, type: 3}
+  m_Name: PlayerDieEffectParameters
+  m_EditorClassIdentifier:
+  _initialOffset: {x: 0, y: -0.2, z: -0.7}
+  _yAxisProjectionCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 2
+      time: 0.0056474893
+      value: -0.004381776
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+    - serializedVersion: 2
+      time: 0.49917093
+      value: 0.12560137
+      inSlope: 0.40142557
+      outSlope: 0.40142557
+      tangentMode: 0
+    - serializedVersion: 2
+      time: 0.99841624
+      value: 0.297624
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 0
+  _distancingCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 2
+      time: 0
+      value: 0
+      inSlope: 4.8614197
+      outSlope: 4.8614197
+      tangentMode: 0
+    - serializedVersion: 2
+      time: 0.9929678
+      value: 1.7010248
+      inSlope: -0.006136537
+      outSlope: -0.006136537
+      tangentMode: 0
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 0
+  _xAxisRotationCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 2
+      time: 0
+      value: 0
+      inSlope: 7.6601076
+      outSlope: 7.6601076
+      tangentMode: 0
+    - serializedVersion: 2
+      time: 0.9996331
+      value: 7.657297
+      inSlope: -1.4619785E-05
+      outSlope: -1.4619785E-05
+      tangentMode: 0
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 0
+  _effectDuration: 0.7

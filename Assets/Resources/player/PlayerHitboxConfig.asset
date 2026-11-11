@@ -1,0 +1,163 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 25815a171db338149010a14609622e75, type: 3}
+  m_Name: PlayerHitboxConfig
+  m_EditorClassIdentifier:
+  hitboxes:
+  - bone: 0
+    hitboxType: 1
+    center: {x: -0.09870096, y: 0.008334855, z: -1.2231745E-07}
+    size: {x: 0, y: 0, z: 0}
+    direction: 0
+    radius: 0.10937503
+    height: 0.30052462
+  - bone: 12
+    hitboxType: 0
+    center: {x: -0.0650875, y: -0.0062040393, z: 5.215407E-08}
+    size: {x: 0.116689056, y: 0.26704407, z: 0.33904302}
+    direction: 0
+    radius: 0
+    height: 0
+  - bone: 14
+    hitboxType: 1
+    center: {x: -0.20591633, y: -0.007871703, z: 4.7157945E-07}
+    size: {x: 0, y: 0, z: 0}
+    direction: 0
+    radius: 0.08703911
+    height: 0.57600015
+  - bone: 13
+    hitboxType: 1
+    center: {x: -0.21561003, y: 0.0066688173, z: 0.010267753}
+    size: {x: 0, y: 0, z: 0}
+    direction: 0
+    radius: 0.09803345
+    height: 0.57440567
+  - bone: 15
+    hitboxType: 0
+    center: {x: -0.075061075, y: 0.054689143, z: -0.0125503335}
+    size: {x: 0.06779931, y: 0.20969814, z: 0.12680304}
+    direction: 0
+    radius: 0
+    height: 0
+  - bone: 17
+    hitboxType: 1
+    center: {x: -0.20592071, y: -0.007871007, z: 1.6347755E-07}
+    size: {x: 0, y: 0, z: 0}
+    direction: 0
+    radius: 0.08703912
+    height: 0.57600015
+  - bone: 16
+    hitboxType: 1
+    center: {x: -0.21561228, y: 0.006669052, z: -0.010267421}
+    size: {x: 0, y: 0, z: 0}
+    direction: 0
+    radius: 0.09803345
+    height: 0.5744056
+  - bone: 18
+    hitboxType: 0
+    center: {x: -0.07507221, y: 0.05469277, z: 0.012547448}
+    size: {x: 0.06779919, y: 0.20969811, z: 0.12680301}
+    direction: 0
+    radius: 0
+    height: 0
+  - bone: 2
+    hitboxType: 0
+    center: {x: -0.105666846, y: 0.0013667775, z: 2.782445E-07}
+    size: {x: 0.18838145, y: 0.24969913, z: 0.32543772}
+    direction: 0
+    radius: 0
+    height: 0
+  - bone: 3
+    hitboxType: 0
+    center: {x: -0.11665286, y: 0.0013347853, z: 1.4504646E-08}
+    size: {x: 0.25665316, y: 0.2315388, z: 0.36544695}
+    direction: 0
+    radius: 0
+    height: 0
+  - bone: 1
+    hitboxType: 1
+    center: {x: -0.033122778, y: 1.5570549E-09, z: 1.636595E-08}
+    size: {x: 0, y: 0, z: 0}
+    direction: 0
+    radius: 0.07755639
+    height: 0.19343118
+  - bone: 7
+    hitboxType: 1
+    center: {x: -0.09326495, y: -1.4572997E-07, z: 1.3282988E-07}
+    size: {x: 0, y: 0, z: 0}
+    direction: 0
+    radius: 0.080098964
+    height: 0.24863306
+  - bone: 4
+    hitboxType: 1
+    center: {x: -0.14201578, y: 1.8377252E-08, z: 7.6230094E-08}
+    size: {x: 0, y: 0, z: 0}
+    direction: 0
+    radius: 0.07160719
+    height: 0.3124342
+  - bone: 5
+    hitboxType: 1
+    center: {x: -0.11408771, y: 7.996258E-08, z: -4.3043664E-07}
+    size: {x: 0, y: 0, z: 0}
+    direction: 0
+    radius: 0.06856768
+    height: 0.3459516
+  - bone: 6
+    hitboxType: 0
+    center: {x: -0.04661287, y: -9.50694E-06, z: -0.008999312}
+    size: {x: 0.15111178, y: 0.05186983, z: 0.09943693}
+    direction: 0
+    radius: 0
+    height: 0
+  - bone: 8
+    hitboxType: 1
+    center: {x: -0.09326504, y: -1.9878826E-08, z: 0}
+    size: {x: 0, y: 0, z: 0}
+    direction: 0
+    radius: 0.080098964
+    height: 0.24863306
+  - bone: 9
+    hitboxType: 1
+    center: {x: -0.11407846, y: -1.4928201E-05, z: -8.615761E-05}
+    size: {x: 0, y: 0, z: 0}
+    direction: 0
+    radius: 0.06856771
+    height: 0.34595168
+  - bone: 10
+    hitboxType: 1
+    center: {x: -0.14201578, y: -1.6895685E-08, z: -1.06079256E-07}
+    size: {x: 0, y: 0, z: 0}
+    direction: 0
+    radius: 0.07160719
+    height: 0.3124342
+  - bone: 11
+    hitboxType: 0
+    center: {x: -0.046633888, y: -3.8083497E-06, z: 0.009005042}
+    size: {x: 0.15111177, y: 0.05186982, z: 0.099436924}
+    direction: 0
+    radius: 0
+    height: 0
+  - bone: 0
+    hitboxType: 1
+    center: {x: -0.09870096, y: 0.008334855, z: -1.2231745E-07}
+    size: {x: 0, y: 0, z: 0}
+    direction: 0
+    radius: 0.10937503
+    height: 0.30052462
+  trigger:
+    bone: 0
+    hitboxType: 0
+    center: {x: 0, y: 0.86, z: 0}
+    size: {x: 0, y: 0, z: 0}
+    direction: 1
+    radius: 0.6375096
+    height: 1.96
+  layer: 0

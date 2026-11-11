@@ -1,0 +1,407 @@
+fileFormatVersion: 2
+guid: 8ad030eaf30f24047a378347efb350fe
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 21300000
+    second: leader_board_score_background
+  - first:
+      213: 21300002
+    second: kill_log_headshot
+  - first:
+      213: 21300004
+    second: pause_selected_button
+  - first:
+      213: 21300006
+    second: game_state
+  - first:
+      213: 21300008
+    second: kill_log_penetrated
+  - first:
+      213: 21300010
+    second: kill_log_current_player
+  - first:
+      213: 21300012
+    second: who_kill_background
+  - first:
+      213: 21300014
+    second: personal_game_stats_background
+  - first:
+      213: 21300016
+    second: kill_log_other_player
+  externalObjects: {}
+  serializedVersion: 12
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMasterTextureLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 4
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 1
+  cookieLightType: 1
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 2
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 1
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 2
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 1
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 2
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 1
+  - serializedVersion: 3
+    buildTarget: Server
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 2
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 1
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: leader_board_score_background
+      rect:
+        serializedVersion: 2
+        x: 75
+        y: 121
+        width: 50
+        height: 23
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 19, y: 0, z: 18, w: 0}
+      outline:
+      - - {x: -25, y: -11.5}
+        - {x: -25, y: 11.5}
+        - {x: 25, y: 11.5}
+        - {x: 25, y: -11.5}
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 02305410000000000800000000000000
+      internalID: 21300000
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kill_log_headshot
+      rect:
+        serializedVersion: 2
+        x: 38
+        y: 121
+        width: 35
+        height: 35
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -16.5, y: -17.5}
+        - {x: -17.5, y: -15.5}
+        - {x: -17.5, y: 14.5}
+        - {x: -13.500001, y: 17.5}
+        - {x: 16.5, y: 17.5}
+        - {x: 17.5, y: 14.5}
+        - {x: 17.5, y: -8.5}
+        - {x: 4.5, y: -17.5}
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 22305410000000000800000000000000
+      internalID: 21300002
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pause_selected_button
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 103
+        width: 566
+        height: 16
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 4, z: 0, w: 4}
+      outline:
+      - - {x: -283, y: -8}
+        - {x: -283, y: 8}
+        - {x: 283, y: 8}
+        - {x: 283, y: -8}
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 42305410000000000800000000000000
+      internalID: 21300004
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: game_state
+      rect:
+        serializedVersion: 2
+        x: 578
+        y: 50
+        width: 412
+        height: 55
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 192, y: 0, z: 192, w: 0}
+      outline:
+      - - {x: 206, y: -27.5}
+        - {x: -206, y: -27.5}
+        - {x: -206, y: 27.5}
+        - {x: 206, y: 27.5}
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 62305410000000000800000000000000
+      internalID: 21300006
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kill_log_penetrated
+      rect:
+        serializedVersion: 2
+        x: 127
+        y: 121
+        width: 33
+        height: 33
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -1.5, y: -16.5}
+        - {x: -16.5, y: -16.5}
+        - {x: -16.5, y: 16.5}
+        - {x: 13.500001, y: 16.5}
+        - {x: 16.5, y: 15.5}
+        - {x: 16.5, y: -13.500001}
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 82305410000000000800000000000000
+      internalID: 21300008
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kill_log_current_player
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 121
+        width: 36
+        height: 36
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 11, y: 0, z: 12, w: 0}
+      outline:
+      - - {x: 18, y: -18}
+        - {x: -18, y: -18}
+        - {x: -18, y: 18}
+        - {x: 18, y: 18}
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a2305410000000000800000000000000
+      internalID: 21300010
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: who_kill_background
+      rect:
+        serializedVersion: 2
+        x: 568
+        y: 107
+        width: 69
+        height: 100
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 20, y: 55, z: 9, w: 13}
+      outline:
+      - - {x: 34.5, y: -50}
+        - {x: -34.5, y: -50}
+        - {x: -34.5, y: 50}
+        - {x: 34.5, y: 50}
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c2305410000000000800000000000000
+      internalID: 21300012
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: personal_game_stats_background
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 663
+        height: 48
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 310, y: 0, z: 313, w: 0}
+      outline:
+      - - {x: 331.5, y: -24}
+        - {x: -331.5, y: -24}
+        - {x: -331.5, y: 24}
+        - {x: 331.5, y: 24}
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e2305410000000000800000000000000
+      internalID: 21300014
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kill_log_other_player
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 50
+        width: 575.94025
+        height: 51
+      alignment: 9
+      pivot: {x: 0.50092, y: 0.5}
+      border: {x: 277, y: 0, z: 277.94025, w: 0}
+      outline:
+      - - {x: 227.02989, y: -25.5}
+        - {x: -287.97012, y: -25.5}
+        - {x: -287.97012, y: 25.5}
+        - {x: 212.02988, y: 25.5}
+        - {x: 286.02988, y: 22.5}
+        - {x: 288.02988, y: 11.5}
+        - {x: 288.02988, y: -16.5}
+        - {x: 283.02988, y: -18.5}
+        - {x: 268.02988, y: -22.5}
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 03305410000000000800000000000000
+      internalID: 21300016
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      game_state: 21300006
+      kill_log_current_player: 21300010
+      kill_log_headshot: 21300002
+      kill_log_other_player: 21300016
+      kill_log_penetrated: 21300008
+      leader_board_score_background: 21300000
+      pause_selected_button: 21300004
+      personal_game_stats_background: 21300014
+      who_kill_background: 21300012
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

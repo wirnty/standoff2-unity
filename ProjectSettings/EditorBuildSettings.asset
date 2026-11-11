@@ -1,0 +1,23 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1045 &1
+EditorBuildSettings:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Scenes:
+  - enabled: 1
+    path: Assets/Scenes/Welcome.unity
+    guid: 50d5cf75d9d586147953176150af8263
+  - enabled: 1
+    path: Assets/Scenes/Main.unity
+    guid: 73e3d83c64d53194e9c46538ec3444c3
+  - enabled: 1
+    path: Assets/Scenes/Game.unity
+    guid: 407b88d3abb96364b916635b9821e9b9
+  - enabled: 1
+    path: Assets/Levels/TrainingOutside/TrainingOutside2.unity
+    guid: 7cfcc9ad8f51c704d8f546c4b4c025cd
+  - enabled: 1
+    path: Assets/Levels/Dust2/ShortDust2.unity
+    guid: d8bd6f205bdfc80479a5b6811334c5ee
+  m_configObjects: {}

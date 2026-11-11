@@ -1,0 +1,25 @@
+fileFormatVersion: 2
+guid: 10f5a9ab70cfd3c4ebc68690e50c531b
+timeCreated: 1705185240
+licenseType: Free
+TrueTypeFontImporter:
+  serializedVersion: 4
+  name:
+  fontSize: 16
+  forceTextureCase: -2
+  characterSpacing: 0
+  characterPadding: 1
+  includeFontData: 1
+  fontName: Eurostile OT
+  fontNames:
+  - Eurostile OT
+  fallbackFontReferences:
+  - {fileID: 12800000, guid: e3bb9ad2d93271a48b48c01d1ff33acb, type: 3}
+  customCharacters:
+  fontRenderingMode: 0
+  output:
+    hasEmptyFontData: 0
+  ascentCalculationMode: 1
+  userData:
+  assetBundleName:
+  assetBundleVariant:

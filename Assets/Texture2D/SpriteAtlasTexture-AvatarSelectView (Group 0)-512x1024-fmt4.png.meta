@@ -1,0 +1,291 @@
+fileFormatVersion: 2
+guid: b2ee7712ce4d584478605c24c92872e3
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 21300000
+    second: avatar_select_library
+  - first:
+      213: 21300002
+    second: avatar_select_gallery
+  - first:
+      213: 21300004
+    second: avatar_select_background
+  externalObjects: {}
+  serializedVersion: 12
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 0
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMasterTextureLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 4
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 1
+  cookieLightType: 1
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 2
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 1
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 2
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 1
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 2
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 1
+  - serializedVersion: 3
+    buildTarget: Server
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 2
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 1
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: avatar_select_library
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 397
+        height: 296
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -192.5, y: -120.00001}
+        - {x: -198.5, y: -113}
+        - {x: -198.5, y: 98}
+        - {x: -187.5, y: 104.99999}
+        - {x: -177.5, y: 111}
+        - {x: -155.5, y: 120.00001}
+        - {x: -134.5, y: 127}
+        - {x: -113.5, y: 133}
+        - {x: -90.5, y: 139}
+        - {x: -61.5, y: 146}
+        - {x: -48.5, y: 148}
+        - {x: 50.5, y: 148}
+        - {x: 63.5, y: 145}
+        - {x: 90.5, y: 139}
+        - {x: 135.5, y: 127}
+        - {x: 166.5, y: 116.99999}
+        - {x: 179.5, y: 112}
+        - {x: 197.5, y: 99}
+        - {x: 198.5, y: 98}
+        - {x: 198.5, y: -114}
+        - {x: 196.5, y: -119.00001}
+        - {x: 179.5, y: -133}
+        - {x: 167.5, y: -139}
+        - {x: 149.5, y: -146}
+        - {x: 131.5, y: -148}
+        - {x: 94.5, y: -148}
+        - {x: 83.5, y: -147}
+        - {x: 60.5, y: -143}
+        - {x: 19.5, y: -133}
+        - {x: 14.5, y: -132}
+        - {x: -7.5000005, y: -133}
+        - {x: -26.499998, y: -136}
+        - {x: -62.5, y: -144}
+        - {x: -70.5, y: -146}
+        - {x: -80.5, y: -148}
+        - {x: -142.5, y: -148}
+        - {x: -164.5, y: -141}
+        - {x: -186.5, y: -128}
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 02305410000000000800000000000000
+      internalID: 21300000
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: avatar_select_gallery
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 298
+        width: 396
+        height: 279
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -196, y: -84.5}
+        - {x: -198, y: -79.5}
+        - {x: -198, y: 87.5}
+        - {x: -191, y: 102.5}
+        - {x: -183, y: 114.5}
+        - {x: -173, y: 123.5}
+        - {x: -159, y: 131.5}
+        - {x: -154, y: 133.5}
+        - {x: -138, y: 138.5}
+        - {x: -133, y: 139.5}
+        - {x: -62, y: 139.5}
+        - {x: -7, y: 128.5}
+        - {x: 8, y: 128.5}
+        - {x: 22, y: 132.5}
+        - {x: 36, y: 135.5}
+        - {x: 70, y: 138.5}
+        - {x: 90, y: 139.5}
+        - {x: 119.00001, y: 139.5}
+        - {x: 134, y: 138.5}
+        - {x: 145, y: 136.5}
+        - {x: 174, y: 126.5}
+        - {x: 189, y: 112.5}
+        - {x: 195, y: 102.5}
+        - {x: 198, y: 95.5}
+        - {x: 198, y: -82.5}
+        - {x: 193, y: -90.5}
+        - {x: 182, y: -100.5}
+        - {x: 163, y: -110.5}
+        - {x: 141, y: -117.49999}
+        - {x: 101, y: -124.5}
+        - {x: 73, y: -134.5}
+        - {x: 48, y: -138.5}
+        - {x: 41, y: -139.5}
+        - {x: -42, y: -139.5}
+        - {x: -54.000004, y: -137.5}
+        - {x: -75, y: -128.5}
+        - {x: -91, y: -122.5}
+        - {x: -150, y: -113.5}
+        - {x: -180, y: -100.5}
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 22305410000000000800000000000000
+      internalID: 21300002
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: avatar_select_background
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 579
+        width: 66
+        height: 66
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 14, y: 19, z: 13, w: 18}
+      outline:
+      - - {x: 33, y: -33}
+        - {x: -33, y: -33}
+        - {x: -33, y: 33}
+        - {x: 33, y: 33}
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 42305410000000000800000000000000
+      internalID: 21300004
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      avatar_select_background: 21300004
+      avatar_select_gallery: 21300002
+      avatar_select_library: 21300000
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

@@ -1,0 +1,610 @@
+fileFormatVersion: 2
+guid: f0bed5e35c600e94b9412dad0956ef77
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 21300000
+    second: next_level_vote_box
+  - first:
+      213: 21300002
+    second: next_level_vote_check
+  - first:
+      213: 21300004
+    second: next_level_vote_row_background
+  - first:
+      213: 21300006
+    second: stats_highlight_vline
+  - first:
+      213: 21300008
+    second: stats_line
+  - first:
+      213: 21300010
+    second: stats_header_split
+  - first:
+      213: 21300012
+    second: stats_tr_team
+  - first:
+      213: 21300014
+    second: stats_player_stat_line
+  - first:
+      213: 21300016
+    second: stats_win_arrow
+  - first:
+      213: 21300018
+    second: next_level_vote_background
+  - first:
+      213: 21300020
+    second: stats_ct_team
+  - first:
+      213: 21300022
+    second: stats_highlight_tr
+  - first:
+      213: 21300024
+    second: stats_header_background
+  - first:
+      213: 21300026
+    second: stats_button
+  - first:
+      213: 21300028
+    second: stats_highlight_ct
+  - first:
+      213: 21300030
+    second: stats_background
+  externalObjects: {}
+  serializedVersion: 12
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMasterTextureLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 4
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 1
+  cookieLightType: 1
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 2
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 1
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 2
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 1
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 2
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 1
+  - serializedVersion: 3
+    buildTarget: Server
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 2
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 1
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: next_level_vote_box
+      rect:
+        serializedVersion: 2
+        x: 398
+        y: 51
+        width: 25
+        height: 24
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -12.5, y: -12}
+        - {x: -12.5, y: 12}
+        - {x: 12.5, y: 12}
+        - {x: 12.5, y: -12}
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 02305410000000000800000000000000
+      internalID: 21300000
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: next_level_vote_check
+      rect:
+        serializedVersion: 2
+        x: 425
+        y: 51
+        width: 24
+        height: 24
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -12, y: -12}
+        - {x: -12, y: 12}
+        - {x: 12, y: 12}
+        - {x: 12, y: -12}
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 22305410000000000800000000000000
+      internalID: 21300002
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: next_level_vote_row_background
+      rect:
+        serializedVersion: 2
+        x: 1068
+        y: 0
+        width: 269
+        height: 94
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 134.5, y: -47}
+        - {x: -134.5, y: -47}
+        - {x: -134.5, y: 47}
+        - {x: 134.5, y: 47}
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 42305410000000000800000000000000
+      internalID: 21300004
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: stats_highlight_vline
+      rect:
+        serializedVersion: 2
+        x: 393
+        y: 51
+        width: 3
+        height: 268
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -1.5, y: -134}
+        - {x: -1.5, y: 134}
+        - {x: 1.5, y: 134}
+        - {x: 1.5, y: -134}
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 62305410000000000800000000000000
+      internalID: 21300006
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: stats_line
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 227
+        width: 91
+        height: 5
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 28, y: 0, z: 23, w: 0}
+      outline:
+      - - {x: -45.5, y: -2.5}
+        - {x: -45.5, y: 2.5}
+        - {x: 45.5, y: 2.5}
+        - {x: 45.5, y: -2.5}
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 82305410000000000800000000000000
+      internalID: 21300008
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: stats_header_split
+      rect:
+        serializedVersion: 2
+        x: 107
+        y: 138
+        width: 1
+        height: 32
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -0.5, y: -16}
+        - {x: -0.5, y: 16}
+        - {x: 0.5, y: 16}
+        - {x: 0.5, y: -16}
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a2305410000000000800000000000000
+      internalID: 21300010
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: stats_tr_team
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 170
+        width: 80
+        height: 55
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -38, y: -27.5}
+        - {x: -40, y: -26.499998}
+        - {x: -40, y: -0.5}
+        - {x: -33, y: 27.5}
+        - {x: 40, y: 27.5}
+        - {x: 40, y: -27.5}
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c2305410000000000800000000000000
+      internalID: 21300012
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: stats_player_stat_line
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 1066
+        height: 49
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 533, y: -24.5}
+        - {x: -533, y: -24.5}
+        - {x: -533, y: 24.5}
+        - {x: 533, y: 24.5}
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e2305410000000000800000000000000
+      internalID: 21300014
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: stats_win_arrow
+      rect:
+        serializedVersion: 2
+        x: 107
+        y: 119
+        width: 24
+        height: 17
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -12, y: -8.5}
+        - {x: -12, y: 8.5}
+        - {x: 12, y: 8.5}
+        - {x: 12, y: -8.5}
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 03305410000000000800000000000000
+      internalID: 21300016
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: next_level_vote_background
+      rect:
+        serializedVersion: 2
+        x: 133
+        y: 119
+        width: 19
+        height: 19
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 6, y: 6, z: 0, w: 5}
+      outline:
+      - - {x: -9.5, y: -9.5}
+        - {x: -9.5, y: 9.5}
+        - {x: 9.5, y: 9.5}
+        - {x: 9.5, y: -9.5}
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 23305410000000000800000000000000
+      internalID: 21300018
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: stats_ct_team
+      rect:
+        serializedVersion: 2
+        x: 248
+        y: 51
+        width: 79
+        height: 62
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -28.5, y: -16}
+        - {x: -39.5, y: -19}
+        - {x: -39.5, y: -3}
+        - {x: -29.499998, y: 31}
+        - {x: 24.5, y: 31}
+        - {x: 39.5, y: 4}
+        - {x: 39.5, y: -22}
+        - {x: 25.5, y: -31}
+        - {x: -23.5, y: -31}
+        - {x: -25.5, y: -28}
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 43305410000000000800000000000000
+      internalID: 21300020
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: stats_highlight_tr
+      rect:
+        serializedVersion: 2
+        x: 1717
+        y: 0
+        width: 218
+        height: 66
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 109, y: -33}
+        - {x: -109, y: -33}
+        - {x: -109, y: 33}
+        - {x: 109, y: 33}
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 63305410000000000800000000000000
+      internalID: 21300022
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: stats_header_background
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 119
+        width: 98
+        height: 49
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 34, y: 13, z: 34, w: 16}
+      outline:
+      - - {x: 49, y: -24.5}
+        - {x: -49, y: -24.5}
+        - {x: -49, y: 24.5}
+        - {x: 49, y: 24.5}
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 83305410000000000800000000000000
+      internalID: 21300024
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: stats_button
+      rect:
+        serializedVersion: 2
+        x: 329
+        y: 51
+        width: 55
+        height: 42
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 27.5, y: -21}
+        - {x: -27.5, y: -21}
+        - {x: -27.5, y: 21}
+        - {x: 5.5, y: 21}
+        - {x: 18.5, y: 16}
+        - {x: 18.5, y: 9}
+        - {x: 27.5, y: 9}
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a3305410000000000800000000000000
+      internalID: 21300026
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: stats_highlight_ct
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 51
+        width: 218
+        height: 66
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 109, y: -33}
+        - {x: -109, y: -33}
+        - {x: -109, y: 33}
+        - {x: 109, y: 33}
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c3305410000000000800000000000000
+      internalID: 21300028
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: stats_background
+      rect:
+        serializedVersion: 2
+        x: 220
+        y: 51
+        width: 26
+        height: 423
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 10, y: 0, z: 8, w: 0}
+      outline:
+      - - {x: -13, y: -211.5}
+        - {x: -13, y: 211.5}
+        - {x: 13, y: 211.5}
+        - {x: 13, y: -211.5}
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e3305410000000000800000000000000
+      internalID: 21300030
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      next_level_vote_background: 21300018
+      next_level_vote_box: 21300000
+      next_level_vote_check: 21300002
+      next_level_vote_row_background: 21300004
+      stats_background: 21300030
+      stats_button: 21300026
+      stats_ct_team: 21300020
+      stats_header_background: 21300024
+      stats_header_split: 21300010
+      stats_highlight_ct: 21300028
+      stats_highlight_tr: 21300022
+      stats_highlight_vline: 21300006
+      stats_line: 21300008
+      stats_player_stat_line: 21300014
+      stats_tr_team: 21300012
+      stats_win_arrow: 21300016
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

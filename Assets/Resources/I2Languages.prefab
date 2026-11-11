@@ -1,0 +1,1213 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1001 &100100000
+Prefab:
+  serializedVersion: 2
+  m_ObjectHideFlags: 1
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications: []
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 0}
+  m_RootGameObject: {fileID: 1918560614337754}
+  m_IsPrefabParent: 1
+--- !u!1 &1918560614337754
+GameObject:
+  serializedVersion: 5
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_Component:
+  - component: {fileID: 4434725167156495}
+  - component: {fileID: 114654747384857925}
+  m_Layer: 0
+  m_Name: I2Languages
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4434725167156495
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1918560614337754}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: -0, z: -0}
+--- !u!114 &114654747384857925
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1918560614337754}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7554888af13e447d4982f6ad48f0af4b, type: 3}
+  m_Name:
+  m_EditorClassIdentifier:
+  Google_WebServiceURL:
+  Google_SpreadsheetKey:
+  Google_SpreadsheetName:
+  Google_LastUpdatedVersion:
+  GoogleUpdateFrequency: 3
+  GoogleUpdateDelay: 5
+  mTerms:
+  - Term: GameState/WarmUp
+    TermType: 0
+    Description:
+    Languages:
+    - Warm-up finish in
+    - Разминка закончится через
+    Languages_Touch:
+    - Warm-up will finish in
+    - 
+    Flags: 0000
+  - Term: GameState/WaitingPlayers
+    TermType: 0
+    Description:
+    Languages:
+    - Waiting for other players...
+    - Ожидание игроков...
+    Languages_Touch:
+    - 
+    - 
+    Flags: 0000
+  - Term: GameState/StartingGame
+    TermType: 0
+    Description:
+    Languages:
+    - Match will start in
+    - Матч начнется через
+    Languages_Touch:
+    - 
+    - 
+    Flags: 0000
+  - Term: Team/CounterTerrorists
+    TermType: 0
+    Description:
+    Languages:
+    - COUNTER-TERRORISTS
+    - СПЕЦНАЗ
+    Languages_Touch:
+    - 
+    - 
+    Flags: 0000
+  - Term: Team/Terrorists
+    TermType: 0
+    Description:
+    Languages:
+    - TERRORISTS
+    - ТЕРРОРИСТЫ
+    Languages_Touch:
+    - 
+    - 
+    Flags: 0000
+  - Term: TeamSelect/Title
+    TermType: 0
+    Description:
+    Languages:
+    - TEAM SELECT
+    - ВЫБОР КОМАНДЫ
+    Languages_Touch:
+    - 
+    - 
+    Flags: 0000
+  - Term: TeamSelect/Select
+    TermType: 0
+    Description:
+    Languages:
+    - SELECT
+    - ВЫБРАТЬ
+    Languages_Touch:
+    - 
+    - 
+    Flags: 0000
+  - Term: Statistics/Ping
+    TermType: 0
+    Description:
+    Languages:
+    - PING
+    - ПИНГ
+    Languages_Touch:
+    - 
+    - 
+    Flags: 0000
+  - Term: Statistics/Name
+    TermType: 0
+    Description:
+    Languages:
+    - MAME
+    - ИМЯ
+    Languages_Touch:
+    - 
+    - 
+    Flags: 0000
+  - Term: Statistics/Kills
+    TermType: 0
+    Description:
+    Languages:
+    - K
+    - У
+    Languages_Touch:
+    - 
+    - 
+    Flags: 0000
+  - Term: Statistics/Death
+    TermType: 0
+    Description:
+    Languages:
+    - D
+    - С
+    Languages_Touch:
+    - 
+    - 
+    Flags: 0000
+  - Term: Statistics/Score
+    TermType: 0
+    Description:
+    Languages:
+    - SCORE
+    - СЧЕТ
+    Languages_Touch:
+    - 
+    - 
+    Flags: 0000
+  - Term: NextLevelVote/VoteEndsIn
+    TermType: 0
+    Description:
+    Languages:
+    - VOTING FOR MAP ENDS IN
+    - ГОЛОСОВАНИЕ ЗАКАНЧИВАЕТСЯ ЧЕРЕЗ
+    Languages_Touch:
+    - 
+    - 
+    Flags: 0000
+  - Term: NextLevelVote/Title
+    TermType: 0
+    Description:
+    Languages:
+    - Select next map
+    - Выбор след. карты
+    Languages_Touch:
+    - 
+    - 
+    Flags: 0000
+  - Term: Statistics/Winner
+    TermType: 0
+    Description:
+    Languages:
+    - WINNER
+    - ПОБЕДА
+    Languages_Touch:
+    - 
+    - 
+    Flags: 0000
+  - Term: Statistics/Draw
+    TermType: 0
+    Description:
+    Languages:
+    - DRAW
+    - НИЧЬЯ
+    Languages_Touch:
+    - 
+    - 
+    Flags: 0000
+  - Term: WeaponCategories/Pistols
+    TermType: 0
+    Description:
+    Languages:
+    - Pistols
+    - Пистолеты
+    Languages_Touch:
+    - 
+    - 
+    Flags: 0000
+  - Term: WeaponCategories/MachineGun
+    TermType: 0
+    Description:
+    Languages:
+    - Machine Gun
+    - Пулеметы
+    Languages_Touch:
+    - 
+    - 
+    Flags: 0000
+  - Term: WeaponCategories/Grenade
+    TermType: 0
+    Description:
+    Languages:
+    - Grenade
+    - Гранаты
+    Languages_Touch:
+    - 
+    - 
+    Flags: 0000
+  - Term: Gun/Ammunition
+    TermType: 0
+    Description:
+    Languages:
+    - Ammunition
+    - Патроны
+    Languages_Touch:
+    - 
+    - 
+    Flags: 0000
+  - Term: Gun/Damage
+    TermType: 0
+    Description:
+    Languages:
+    - Damage
+    - Урон
+    Languages_Touch:
+    - 
+    - 
+    Flags: 0000
+  - Term: Gun/FireRate
+    TermType: 0
+    Description:
+    Languages:
+    - Fire rate
+    - Скрострельность
+    Languages_Touch:
+    - 
+    - 
+    Flags: 0000
+  - Term: Gun/RecoilControl
+    TermType: 0
+    Description:
+    Languages:
+    - Recoil Control
+    - Отдача
+    Languages_Touch:
+    - 
+    - 
+    Flags: 0000
+  - Term: Gun/AccurateRange
+    TermType: 0
+    Description:
+    Languages:
+    - Accurate range
+    - Дальность поражения
+    Languages_Touch:
+    - 
+    - 
+    Flags: 0000
+  - Term: Gun/MovementRate
+    TermType: 0
+    Description:
+    Languages:
+    - Movement rate
+    - Мобильность
+    Languages_Touch:
+    - 
+    - 
+    Flags: 0000
+  - Term: Gun/ArmorPenetration
+    TermType: 0
+    Description:
+    Languages:
+    - Armor penetration
+    - Бронепробиваемость
+    Languages_Touch:
+    - 
+    - 
+    Flags: 0000
+  - Term: Gun/PenetrationPower
+    TermType: 0
+    Description:
+    Languages:
+    - Penetration power
+    - Мощность прострела
+    Languages_Touch:
+    - 
+    - 
+    Flags: 0000
+  - Term: WeaponSelect/InventoryTitle
+    TermType: 0
+    Description:
+    Languages:
+    - Inventory
+    - Инвентарь
+    Languages_Touch:
+    - 
+    - 
+    Flags: 0000
+  - Term: WeaponSelect/Ammo
+    TermType: 0
+    Description:
+    Languages:
+    - 'Ammo:'
+    - 'Патроны:'
+    Languages_Touch:
+    - 
+    - 
+    Flags: 0000
+  - Term: Common/Close
+    TermType: 0
+    Description:
+    Languages:
+    - Close
+    - Закрыть
+    Languages_Touch:
+    - 
+    - 
+    Flags: 0000
+  - Term: WeaponSelect/Weaponry
+    TermType: 0
+    Description:
+    Languages:
+    - Weaponry
+    - Вооружение
+    Languages_Touch:
+    - WEAPONRY
+    - ВООРУЖЕНИЕ
+    Flags: 0000
+  - Term: TeamDeathMatch/WeaponBuyTitle
+    TermType: 0
+    Description:
+    Languages:
+    - Time to end immunity
+    - Время до окончания иммунитета
+    Languages_Touch:
+    - Time to choose the weapon ends in
+    - 
+    Flags: 0000
+  - Term: LevelLoadingView/Settings
+    TermType: 0
+    Description:
+    Languages:
+    - 'Settings:'
+    - 'Настройки:'
+    Languages_Touch:
+    - 
+    - 
+    Flags: 0000
+  - Term: LevelLoadingView/Loading
+    TermType: 0
+    Description:
+    Languages:
+    - Loading...
+    - Загрузка...
+    Languages_Touch:
+    - Loading resources
+    - Загрузка ресурсов
+    Flags: 0000
+  - Term: GameMode/DeathMatch
+    TermType: 0
+    Description:
+    Languages:
+    - Death Match
+    - Бой Насмерть
+    Languages_Touch:
+    - 
+    - 
+    Flags: 0000
+  - Term: GameMode/DeathMatchDescription
+    TermType: 0
+    Description:
+    Languages:
+    - Death deatch
+    - Бой насмерть
+    Languages_Touch:
+    - 
+    - 
+    Flags: 0000
+  - Term: WeaponCategories/Heavy
+    TermType: 0
+    Description:
+    Languages:
+    - Heavy
+    - Тяжелые оружия
+    Languages_Touch:
+    - 
+    - Тяжелое оружие
+    Flags: 0000
+  - Term: Winners/FirstPlace
+    TermType: 0
+    Description:
+    Languages:
+    - 
+    - 
+    Languages_Touch:
+    - 1st place winner
+    - 1-е место
+    Flags: 0000
+  - Term: Winners/SecondPlace
+    TermType: 0
+    Description:
+    Languages:
+    - 
+    - 
+    Languages_Touch:
+    - 2nd
+    - 2-е
+    Flags: 0000
+  - Term: Winners/ThirdPlace
+    TermType: 0
+    Description:
+    Languages:
+    - 
+    - 
+    Languages_Touch:
+    - 3rd
+    - 3-е
+    Flags: 0000
+  - Term: Statistics/Assist
+    TermType: 0
+    Description:
+    Languages:
+    - 
+    - 
+    Languages_Touch:
+    - A
+    - П
+    Flags: 0000
+  - Term: WeaponSelect/Cost
+    TermType: 0
+    Description:
+    Languages:
+    - 'Cost:'
+    - 'Стоимость:'
+    Languages_Touch:
+    - 
+    - 
+    Flags: 0000
+  - Term: PauseMenu/Title
+    TermType: 0
+    Description:
+    Languages:
+    - 
+    - 
+    Languages_Touch:
+    - Pause menu
+    - Меню паузы
+    Flags: 0000
+  - Term: PauseMenu/ExitGame
+    TermType: 0
+    Description:
+    Languages:
+    - 
+    - Выйти из игры
+    Languages_Touch:
+    - Exit game
+    - Выйти из игры
+    Flags: 0000
+  - Term: PauseMenu/Settings
+    TermType: 0
+    Description:
+    Languages:
+    - 
+    - 
+    Languages_Touch:
+    - Settings
+    - Настройки
+    Flags: 0000
+  - Term: PauseMenu/ChangeTeam
+    TermType: 0
+    Description:
+    Languages:
+    - 
+    - 
+    Languages_Touch:
+    - Change team
+    - Сменить команду
+    Flags: 0000
+  - Term: PauseMenu/BackToGame
+    TermType: 0
+    Description:
+    Languages:
+    - 
+    - 
+    Languages_Touch:
+    - Back to game
+    - Вернуться в игру
+    Flags: 0000
+  - Term: VideoSettings/ShadowDetail
+    TermType: 0
+    Description:
+    Languages:
+    - 
+    - 
+    Languages_Touch:
+    - Global shadow quality
+    - Общее качество теней
+    Flags: 0000
+  - Term: VideoSettings/ModelDetail
+    TermType: 0
+    Description:
+    Languages:
+    - 
+    - 
+    Languages_Touch:
+    - Model detail
+    - Детализация моделей
+    Flags: 0000
+  - Term: VideoSettings/TextureDetail
+    TermType: 0
+    Description:
+    Languages:
+    - 
+    - 
+    Languages_Touch:
+    - Texture detail
+    - Детализация текстур
+    Flags: 0000
+  - Term: VideoSettings/EffectDetail
+    TermType: 0
+    Description:
+    Languages:
+    - 
+    - 
+    Languages_Touch:
+    - Effect detail
+    - Детализация эффектов
+    Flags: 0000
+  - Term: VideoSettings/ShaderDetail
+    TermType: 0
+    Description:
+    Languages:
+    - 
+    - 
+    Languages_Touch:
+    - Shader detail
+    - Детализация шейдеров
+    Flags: 0000
+  - Term: VideoSettings/AntiAliasingMode
+    TermType: 0
+    Description:
+    Languages:
+    - 
+    - 
+    Languages_Touch:
+    - Anti-Aliasing
+    - Сглаживание
+    Flags: 0000
+  - Term: Settings/Disabled
+    TermType: 0
+    Description:
+    Languages:
+    - 
+    - 
+    Languages_Touch:
+    - Disabled
+    - Выкл.
+    Flags: 0000
+  - Term: Settings/VeryLow
+    TermType: 0
+    Description:
+    Languages:
+    - 
+    - 
+    Languages_Touch:
+    - Very low
+    - Очень низкое
+    Flags: 0000
+  - Term: Settings/Low
+    TermType: 0
+    Description:
+    Languages:
+    - 
+    - 
+    Languages_Touch:
+    - Low
+    - Низкое
+    Flags: 0000
+  - Term: Settings/Medium
+    TermType: 0
+    Description:
+    Languages:
+    - 
+    - 
+    Languages_Touch:
+    - Medium
+    - Среднее
+    Flags: 0000
+  - Term: Settings/High
+    TermType: 0
+    Description:
+    Languages:
+    - 
+    - 
+    Languages_Touch:
+    - High
+    - Высокое
+    Flags: 0000
+  - Term: Settings/VeryHigh
+    TermType: 0
+    Description:
+    Languages:
+    - 
+    - 
+    Languages_Touch:
+    - Very high
+    - Очень высокое
+    Flags: 0000
+  - Term: VideoSettings/Title
+    TermType: 0
+    Description:
+    Languages:
+    - '   '
+    - 
+    Languages_Touch:
+    - Video settings
+    - Настройки видео
+    Flags: 0000
+  - Term: Common/Back
+    TermType: 0
+    Description:
+    Languages:
+    - ' '
+    - 
+    Languages_Touch:
+    - Back
+    - Назад
+    Flags: 0000
+  - Term: Settings/RestoreDefaults
+    TermType: 0
+    Description:
+    Languages:
+    - '   '
+    - 
+    Languages_Touch:
+    - Restore defaults
+    - По умолчанию
+    Flags: 0000
+  - Term: Common/Apply
+    TermType: 0
+    Description:
+    Languages:
+    - ' '
+    - 
+    Languages_Touch:
+    - Apply
+    - Применить
+    Flags: 0000
+  - Term: ControlSettings/Sensitivity
+    TermType: 0
+    Description:
+    Languages:
+    - '   '
+    - 
+    Languages_Touch:
+    - Sensitivity
+    - Чувствительность
+    Flags: 0000
+  - Term: ControlSettings/Acceleration
+    TermType: 0
+    Description:
+    Languages:
+    - ' '
+    - 
+    Languages_Touch:
+    - Acceleration
+    - Ускорение
+    Flags: 0000
+  - Term: ControlSettings/Title
+    TermType: 0
+    Description:
+    Languages:
+    - 
+    - 
+    Languages_Touch:
+    - Control settings
+    - Настройки управления
+    Flags: 0000
+  - Term: Common/PleaseWait
+    TermType: 0
+    Description:
+    Languages:
+    - 
+    - 
+    Languages_Touch:
+    - Please wait
+    - Пожалуйста, подождите
+    Flags: 0000
+  - Term: Dialogs/SearchGame
+    TermType: 0
+    Description:
+    Languages:
+    - 
+    - 
+    Languages_Touch:
+    - Search game
+    - Поиск игры
+    Flags: 0000
+  - Term: Dialogs/ConnectionHasBeenLost
+    TermType: 0
+    Description:
+    Languages:
+    - 
+    - 
+    Languages_Touch:
+    - Connection has been lost
+    - Соединение потеряно
+    Flags: 0000
+  - Term: Dialogs/ConnectionFailed
+    TermType: 0
+    Description:
+    Languages:
+    - 
+    - 
+    Languages_Touch:
+    - Connection failed
+    - Ошибка соединения
+    Flags: 0000
+  - Term: Dialogs/CheckInternetConnection
+    TermType: 0
+    Description:
+    Languages:
+    - 
+    - 
+    Languages_Touch:
+    - Please, check your internet connection
+    - Пожалуйста, проверьте настройки сети вашего устройства
+    Flags: 0000
+  - Term: SearchGame/CurrentOnline
+    TermType: 0
+    Description:
+    Languages:
+    - New Text
+    - 
+    Languages_Touch:
+    - Players online
+    - Игроков в сети
+    Flags: 0000
+  - Term: SearchGame/Region
+    TermType: 0
+    Description:
+    Languages:
+    - '     '
+    - 
+    Languages_Touch:
+    - Server
+    - Сервер
+    Flags: 0000
+  - Term: SearchGame/Ping
+    TermType: 0
+    Description:
+    Languages:
+    - ' '
+    - 
+    Languages_Touch:
+    - Ping
+    - Пинг
+    Flags: 0000
+  - Term: Dialogs/TryingToReconnect
+    TermType: 0
+    Description:
+    Languages:
+    - 
+    - 
+    Languages_Touch:
+    - 'Trying to reconnect... '
+    - Переподключение к серверу...
+    Flags: 0000
+  - Term: GameExitMessages/Disconnected
+    TermType: 0
+    Description:
+    Languages:
+    - 
+    - 
+    Languages_Touch:
+    - Disconnected
+    - Отключен от сервера
+    Flags: 0000
+  - Term: GameExitMessages/ReconnectFailed
+    TermType: 0
+    Description:
+    Languages:
+    - 
+    - 
+    Languages_Touch:
+    - Can't reconnect to the game
+    - Не удалось переподключится к игре
+    Flags: 0000
+  - Term: Common/Ok
+    TermType: 0
+    Description:
+    Languages:
+    - 
+    - 
+    Languages_Touch:
+    - Ok
+    - Ок
+    Flags: 0000
+  - Term: LevelLoadingView/InitWaiting
+    TermType: 0
+    Description:
+    Languages:
+    - 
+    - 
+    Languages_Touch:
+    - Waiting for initialize
+    - Ожидание инициализации
+    Flags: 0000
+  - Term: Dialogs/ExitGameConfirmation
+    TermType: 0
+    Description:
+    Languages:
+    - 
+    - 
+    Languages_Touch:
+    - Do you want to exit the game?
+    - Вы хотите выйти из игры ?
+    Flags: 0000
+  - Term: Common/Cancel
+    TermType: 0
+    Description:
+    Languages:
+    - 
+    - 
+    Languages_Touch:
+    - Cancel
+    - Отмена
+    Flags: 0000
+  - Term: Common/Confirmation
+    TermType: 0
+    Description:
+    Languages:
+    - 
+    - 
+    Languages_Touch:
+    - Confirmation
+    - 'Подтверждение '
+    Flags: 0000
+  - Term: Common/Yes
+    TermType: 0
+    Description:
+    Languages:
+    - Yes
+    - Да
+    Languages_Touch:
+    - 
+    - 
+    Flags: 0000
+  - Term: Common/No
+    TermType: 0
+    Description:
+    Languages:
+    - No
+    - Нет
+    Languages_Touch:
+    - 
+    - 
+    Flags: 0000
+  - Term: WhoKill/DamageTaken
+    TermType: 0
+    Description:
+    Languages:
+    - 'Damage taken:'
+    - 'Получено урона:'
+    Languages_Touch:
+    - 
+    - 
+    Flags: 0000
+  - Term: WhoKill/DamageGiven
+    TermType: 0
+    Description:
+    Languages:
+    - ' '
+    - 
+    Languages_Touch:
+    - 'Damage given:'
+    - 'Нанесено урона:'
+    Flags: 0000
+  - Term: WhoKill/KilledYou
+    TermType: 0
+    Description:
+    Languages:
+    - '   '
+    - 
+    Languages_Touch:
+    - KILLED YOU
+    - УБИЛ ТЕБЯ
+    Flags: 0000
+  - Term: WeaponCategories/Rifles
+    TermType: 0
+    Description:
+    Languages:
+    - 
+    - 
+    Languages_Touch:
+    - Rifles
+    - Винтовки
+    Flags: 0000
+  - Term: Common/Loading
+    TermType: 0
+    Description:
+    Languages:
+    - New Text
+    - 
+    Languages_Touch:
+    - Loading
+    - Загрузка
+    Flags: 0000
+  - Term: Auth/Connecting
+    TermType: 0
+    Description:
+    Languages:
+    - 
+    - 
+    Languages_Touch:
+    - Connecting
+    - Подключение
+    Flags: 0000
+  - Term: Auth/ConnectionError
+    TermType: 0
+    Description:
+    Languages:
+    - 
+    - 
+    Languages_Touch:
+    - Connection error
+    - Ошибка подключения
+    Flags: 0000
+  - Term: Dialogs/LoadingPlayerProfile
+    TermType: 0
+    Description:
+    Languages:
+    - 
+    - 
+    Languages_Touch:
+    - Loading player profile
+    - Загрузка данных пользователя
+    Flags: 0000
+  - Term: Profile/EnterYouName
+    TermType: 0
+    Description:
+    Languages:
+    - 
+    - 
+    Languages_Touch:
+    - Enter you name
+    - Введите имя
+    Flags: 0000
+  - Term: Common/SavingChanges
+    TermType: 0
+    Description:
+    Languages:
+    - 
+    - 
+    Languages_Touch:
+    - Saving changes
+    - Сохранение изменений
+    Flags: 0000
+  - Term: Common/Error
+    TermType: 0
+    Description:
+    Languages:
+    - 
+    - 
+    Languages_Touch:
+    - Error
+    - Ошибка
+    Flags: 0000
+  - Term: Common/Play
+    TermType: 0
+    Description:
+    Languages:
+    - PLAY
+    - 
+    Languages_Touch:
+    - Play
+    - Играть
+    Flags: 0000
+  - Term: AvatarSelectView/LoadFromGallery
+    TermType: 0
+    Description:
+    Languages:
+    - New Text
+    - 
+    Languages_Touch:
+    - Load from gallery
+    - Загрузить из галереи
+    Flags: 0000
+  - Term: AvatarSelectView/ChooseFromLibrary
+    TermType: 0
+    Description:
+    Languages:
+    - '     '
+    - 
+    Languages_Touch:
+    - Choose from library
+    - Выбрать из стандартных
+    Flags: 0000
+  - Term: AvatarSelectView/SelectAvatar
+    TermType: 0
+    Description:
+    Languages:
+    - New Text
+    - 
+    Languages_Touch:
+    - Select avatar
+    - Выберите иконку
+    Flags: 0000
+  - Term: AvatarSelectView/ChangeAvatar
+    TermType: 0
+    Description:
+    Languages:
+    - 
+    - 
+    Languages_Touch:
+    - Change avatar
+    - Смена иконки
+    Flags: 0000
+  - Term: Common/Name
+    TermType: 0
+    Description:
+    Languages:
+    - 
+    - 
+    Languages_Touch:
+    - Name
+    - Имя
+    Flags: 0000
+  - Term: PlayerStats/PlayTime
+    TermType: 0
+    Description:
+    Languages:
+    - Overall play time
+    - Общее время в игре
+    Languages_Touch:
+    - 
+    - 
+    Flags: 0000
+  - Term: PlayerStats/GamesPlayed
+    TermType: 0
+    Description:
+    Languages:
+    - Matches played
+    - Сыграно игр
+    Languages_Touch:
+    - 
+    - Сыграно матчей
+    Flags: 0000
+  - Term: PlayerStats/Accuracy
+    TermType: 0
+    Description:
+    Languages:
+    - Accuracy
+    - Точность
+    Languages_Touch:
+    - 
+    - 
+    Flags: 0000
+  - Term: PlayerStats/Headshots
+    TermType: 0
+    Description:
+    Languages:
+    - Headshots percentage
+    - Кол-во попаданий в голову
+    Languages_Touch:
+    - Headshots
+    - Убийств в голову
+    Flags: 0000
+  - Term: PlayerStats/Title
+    TermType: 0
+    Description:
+    Languages:
+    - Statistics
+    - Статистика
+    Languages_Touch:
+    - 
+    - 
+    Flags: 0000
+  - Term: PlayerStats/Assists
+    TermType: 0
+    Description:
+    Languages:
+    - Assist
+    - Помощь
+    Languages_Touch:
+    - Assists
+    - 
+    Flags: 0000
+  - Term: PlayerStats/Shots
+    TermType: 0
+    Description:
+    Languages:
+    - Shots
+    - Кол-во выстрелов
+    Languages_Touch:
+    - 
+    - 
+    Flags: 0000
+  - Term: PlayerStats/Hits
+    TermType: 0
+    Description:
+    Languages:
+    - HIts
+    - Кол-во попаданий
+    Languages_Touch:
+    - 
+    - 
+    Flags: 0000
+  - Term: Headshots
+    TermType: 0
+    Description:
+    Languages:
+    - Headshots
+    - Попаданий в голову
+    Languages_Touch:
+    - 
+    - 
+    Flags: 0000
+  - Term: PlayerStats/Kills
+    TermType: 0
+    Description:
+    Languages:
+    - Kills
+    - Убийств
+    Languages_Touch:
+    - 
+    - 
+    Flags: 0000
+  - Term: PlayerStats/Deaths
+    TermType: 0
+    Description:
+    Languages:
+    - Deaths
+    - Смертей
+    Languages_Touch:
+    - 
+    - 
+    Flags: 0000
+  - Term: PlayerStats/HeadshotsPercentage
+    TermType: 0
+    Description:
+    Languages:
+    - '   '
+    - 
+    Languages_Touch:
+    - Headshots percentage
+    - Процент убийств в голову
+    Flags: 0000
+  - Term: PlayerStats/Hours
+    TermType: 0
+    Description:
+    Languages:
+    - h
+    - 
+    Languages_Touch:
+    - 
+    - ч
+    Flags: 0000
+  mLanguages:
+  - Name: English
+    Code: en
+    Flags: 0
+  - Name: Russian
+    Code: ru
+    Flags: 0
+  CaseInsensitiveTerms: 0
+  Assets: []
+  NeverDestroy: 1
+  UserAgreesToHaveItOnTheScene: 0
+  UserAgreesToHaveItInsideThePluginsFolder: 0
+  OnMissingTranslation: 1
