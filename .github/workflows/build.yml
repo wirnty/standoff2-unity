@@ -6,20 +6,24 @@ on:
 jobs:
   build:
     runs-on: ubuntu-latest
-
     steps:
-      - name: Checkout
-        uses: actions/checkout@v4
-        with:
-          lfs: true
-          fetch-depth: 1
-          token: ${{ secrets.GITHUB_TOKEN }}
+      - name: Install Git LFS
+        run: |
+          sudo apt-get update
+          sudo apt-get install -y git-lfs
+          git lfs install
 
       - name: Check Git LFS
         run: |
           git lfs version
           git lfs ls-files
           git lfs status
+
+      - name: Checkout
+        uses: actions/checkout@v4
+        with:
+          lfs: true
+          fetch-depth: 1
 
       - name: Build APK
         uses: game-ci/unity-builder@v4
