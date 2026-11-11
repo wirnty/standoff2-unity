@@ -12,6 +12,14 @@ jobs:
         uses: actions/checkout@v4
         with:
           lfs: true
+          fetch-depth: 1
+          token: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: Check Git LFS
+        run: |
+          git lfs version
+          git lfs ls-files
+          git lfs status
 
       - name: Build APK
         uses: game-ci/unity-builder@v4
